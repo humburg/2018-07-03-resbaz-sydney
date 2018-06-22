@@ -379,7 +379,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <li>sf</li>
   </ul>
   </div>
-
+  </div>
   <div class="row">
     <div class="col-md-4">
       <h4 id="r-package-windows">Windows</h4>
