@@ -297,78 +297,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-<div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
-  <h3>Text Editor</h3>
-
-  <p>
-    When you're writing code, it's nice to have a text editor that is
-    optimized for writing code, with features like automatic
-    color-coding of key words.  The default text editor on macOS and
-    Linux is usually set to Vim, which is not famous for being
-    intuitive.  If you accidentally find yourself stuck in it, try
-    typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
-    exclamation mark), then hitting Return to return to the shell.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="editor-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        To install it,
-        download the <a href="{{site.swc_installer}}">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows installer
-	</a>
-        and double click on the file to run it.
-        <strong>This installer requires an active internet connection.</strong>
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="https://notepad-plus-plus.org/">Notepad++</a> or
-        <a href="https://www.sublimetext.com/">Sublime Text</a>.
-        <strong>Be aware that you must
-          add its installation directory to your system path.</strong>
-        Please ask your instructor to help you do this.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="editor-macosx">macOS</h4>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-        for an example on how to open nano.
-        It should be pre-installed.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="https://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
-        <a href="https://www.sublimetext.com/">Sublime Text</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="editor-linux">Linux</h4>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        It should be pre-installed.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
-        <a href="https://kate-editor.org/">Kate</a> or
-        <a href="https://www.sublimetext.com/">Sublime Text</a>.
-      </p>
-    </div>
-  </div>
-</div> {% comment %} End of 'editor' section. {% endcomment %}
-
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -420,6 +348,39 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
+<div id="r-packages"> {% comment %} Start of 'R' section. {% endcomment %}
+  <h3>R packages</h3>
+
+  <p>
+    During the workshop you will use a number of different R packages. Please ensure you have installed
+    the following packages from <a href="https://cran.r-project.org/">CRAN</a>.
+  </p>
+  <div class="col-md-4">
+  <ul>
+    <li>data.table</li>
+    <li>foreach</li>
+    <li>ggplot2</li>
+  </ul>
+  </div>
+  <div class="col-md-4">
+  <ul>
+    <li>knitr</li>
+    <li>plyr</li>
+    <li>reshape2</li>
+  </ul>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h4 id="r-package-install">Package Installation</h4>
+      <p>
+        Open RStudio and enter <code>install.packages(c("data.table", "foreach", "ggplot2", "knitr", "plyr", "reshape2"))</code>
+        at the command line. You may be prompted to select a CRAN mirror. Any mirror in the list should work but the ones located
+        in Australia are likely to provide the fasted downloads.
+      </p>
+    </div>
+  </div>
+</div> {% comment %} End of 'R' section. {% endcomment %}
 {% comment %}
 <div id="vm">
   <h3>Virtual Machine</h3>
