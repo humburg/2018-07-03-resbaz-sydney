@@ -376,7 +376,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <h4 id="r-package-install">Package Installation</h4>
       <p>
         Open RStudio and enter <code>install.packages(c("data.table", "gapminder", "foreach", "ggplot2", "knitr", "plyr", "reshape2"))</code>
-        at the command line. You may be prompted to select a CRAN mirror. Any mirror in the list should work but the ones located
+        at the R command line. You may be prompted to select a CRAN mirror. Any mirror in the list should work but the ones located
         in Australia are likely to provide the fasted downloads.
       </p>
     </div>
