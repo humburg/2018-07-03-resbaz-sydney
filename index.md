@@ -357,28 +357,29 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     During the workshop you will use a number of different R packages. Please ensure you have installed
     the following packages from <a href="https://cran.r-project.org/">CRAN</a>.
   </p>
-  <div class="col-md-3">
-  <ul>
-    <li>data.table</li>
-    <li>foreach</li>
-    <li>gapminder</li>
-    <li>ggplot2</li>
-  </ul>
-  </div>
-  <div class="col-md-3">
-  <ul>
-    <li>knitr</li>
-    <li>plyr</li>
-    <li>reshape2</li>
-  </ul>
-  </div>
-  <div class="col-md-3">
-  <ul>
-    <li>rgdal</li>
-    <li>raster</li>
-    <li>sf</li>
-  </ul>
-  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <ul>
+        <li>data.table</li>
+        <li>foreach</li>
+        <li>gapminder</li>
+        <li>ggplot2</li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <ul>
+        <li>knitr</li>
+        <li>plyr</li>
+        <li>reshape2</li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <ul>
+        <li>rgdal</li>
+        <li>raster</li>
+        <li>sf</li>
+      </ul>
+    </div>
   </div>
   <div class="row">
     <div class="col-md-4">
