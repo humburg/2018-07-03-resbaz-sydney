@@ -114,7 +114,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants are assumed to be comfortable using R, at least to the level tought 
+  <strong>Requirements:</strong> Participants are assumed to be comfortable using R, at least to the level tought
   in the <a href="http://swcarpentry.github.io/r-novice-inflammation/">Introduction to R</a>. Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
@@ -180,12 +180,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <hr/>
 
-{% comment %} 
- SURVEYS - DO NOT EDIT SURVEY LINKS 
+{% comment %}
+ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 
-{% if page.carpentry == "swc" %} 
+{% if page.carpentry == "swc" %}
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -319,9 +319,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
         <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the 
-        installers as administrator (right-click on .exe file and select "Run as 
-        administrator" instead of double-clicking). Otherwise problems may occur later, 
+        Note that if you have separate user and admin accounts, you should run the
+        installers as administrator (right-click on .exe file and select "Run as
+        administrator" instead of double-clicking). Otherwise problems may occur later,
         for example when installing R packages.
       </p>
     </div>
@@ -357,7 +357,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     During the workshop you will use a number of different R packages. Please ensure you have installed
     the following packages from <a href="https://cran.r-project.org/">CRAN</a>.
   </p>
-  <div class="col-md-4">
+  <div class="col-md-3">
   <ul>
     <li>data.table</li>
     <li>foreach</li>
@@ -365,11 +365,15 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <li>ggplot2</li>
   </ul>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3">
   <ul>
     <li>knitr</li>
     <li>plyr</li>
     <li>reshape2</li>
+  </ul>
+  </div>
+  <div class="col-md-3">
+  <ul>
     <li>rgdal</li>
     <li>raster</li>
     <li>sf</li>
@@ -377,8 +381,24 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 
   <div class="row">
-    <div class="col-md-12">
-      <h4 id="r-package-install">Package Installation</h4>
+    <div class="col-md-4">
+      <h4 id="r-package-windows">Windows</h4>
+      <p>
+        Open RStudio and enter <code>install.packages(c("data.table", "gapminder", "foreach", "ggplot2", "knitr", "plyr", "reshape2", "rgdal", "raster", "sf"))</code>
+        at the R command line. You may be prompted to select a CRAN mirror. Any mirror in the list should work but the ones located
+        in Australia are likely to provide the fastest downloads.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="r-package-macosx">macOS</h4>
+      <p>
+        Open RStudio and enter <code>install.packages(c("data.table", "gapminder", "foreach", "ggplot2", "knitr", "plyr", "reshape2", "rgdal", "raster", "sf"))</code>
+        at the R command line. You may be prompted to select a CRAN mirror. Any mirror in the list should work but the ones located
+        in Australia are likely to provide the fastest downloads.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="r-package-linux">Linux</h4>
       <p>
         Open RStudio and enter <code>install.packages(c("data.table", "gapminder", "foreach", "ggplot2", "knitr", "plyr", "reshape2", "rgdal", "raster", "sf"))</code>
         at the R command line. You may be prompted to select a CRAN mirror. Any mirror in the list should work but the ones located
