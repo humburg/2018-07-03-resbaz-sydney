@@ -402,7 +402,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <h4 id="r-package-linux">Linux</h4>
       <p>
         You will need *gdal*, *geos* and *proj4* installed on your system before installing the geospacial packages, such as *rgdal* and *sf*. Please allow for plenty of time and follow the instructions on the geospatial workshop  <a href="http://www.datacarpentry.org/geospatial-workshop/setup/">homepage</a> to install the prerequisites.
-
+      </p>
+      <p>
         Once you have installed the prerequisits, open RStudio and enter <code>install.packages(c("data.table", "gapminder", "foreach", "ggplot2", "knitr", "plyr", "reshape2", "rgdal", "raster", "sf"))</code>
         at the R command line. You may be prompted to select a CRAN mirror. Any mirror in the list should work but the ones located
         in Australia are likely to provide the fastest downloads. 
