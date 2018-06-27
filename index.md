@@ -359,8 +359,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </p>
   <div class="row">
     <div class="col-md-6">
-    For Day 1:
-    <div class="row">
+      For Day 1:
       <div class="col-md-3">
         <ul>
           <li>data.table</li>
@@ -378,7 +377,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </div>
     </div>
     <div class="col-md-3">
-    For <i>Geospatial Data in R</i>:
+      For <i>Geospatial Data in R</i>:
       <ul>
         <li>rgdal</li>
         <li>raster</li>
@@ -386,7 +385,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </ul>
     </div>
     <div class="col-md-3">
-    For <i>Introduction to Shiny</i>:
+      For <i>Introduction to Shiny</i>:
       <ul>
         <li>shiny</li>
       </ul>
