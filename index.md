@@ -380,12 +380,17 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         <li>sf</li>
       </ul>
     </div>
+    <div class="col-md-3">
+      <ul>
+        <li>shiny</li>
+      </ul>
+    </div>    
   </div>
   <div class="row">
     <div class="col-md-4">
       <h4 id="r-package-windows">Windows</h4>
       <p>
-        Open RStudio and enter <code>install.packages(c("data.table", "gapminder", "foreach", "ggplot2", "knitr", "plyr", "reshape2", "rgdal", "raster", "sf"))</code>
+        Open RStudio and enter <code>install.packages(c("data.table", "gapminder", "foreach", "ggplot2", "knitr", "plyr", "reshape2", "rgdal", "raster", "sf", "shiny"))</code>
         at the R command line. You may be prompted to select a CRAN mirror. Any mirror in the list should work but the ones located
         in Australia are likely to provide the fastest downloads. 
       </p>
