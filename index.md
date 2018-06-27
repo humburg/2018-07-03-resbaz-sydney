@@ -358,24 +358,27 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     the following packages from <a href="https://cran.r-project.org/">CRAN</a>.
   </p>
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-6">
     For Day 1:
-      <ul>
-        <li>data.table</li>
-        <li>foreach</li>
-        <li>gapminder</li>
-      </ul>
+    <div class="row">
+      <div class="col-md-3">
+        <ul>
+          <li>data.table</li>
+          <li>foreach</li>
+          <li>gapminder</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul>
+          <li>ggplot2</li>
+          <li>knitr</li>
+          <li>plyr</li>
+          <li>reshape2</li>
+        </ul>
+      </div>
     </div>
     <div class="col-md-3">
-      <ul>
-        <li>ggplot2</li>
-        <li>knitr</li>
-        <li>plyr</li>
-        <li>reshape2</li>
-      </ul>
-    </div>
-    <div class="col-md-3">
-    For *Geospatial Data in R*:
+    For <i>Geospatial Data in R</i>:
       <ul>
         <li>rgdal</li>
         <li>raster</li>
@@ -383,7 +386,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </ul>
     </div>
     <div class="col-md-3">
-    For *Introduction to Shiny*:
+    For <i>Introduction to Shiny</i>:
       <ul>
         <li>shiny</li>
       </ul>
